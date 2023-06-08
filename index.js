@@ -1,5 +1,4 @@
-//<...33-77
-    //Set all wining positions as  sub arrays within an array
+ //Set all wining positions as  sub arrays within an array
 function win(){
   for(let i=0;i<winner.length;i++){
    if( document.getElementById(winner[i][0]).innerHTML===Symbol&&
