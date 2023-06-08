@@ -16,3 +16,7 @@ function boxClick(cell){
         draw()
         //calls the function for alternating change of symbols
       };
+      function toggle(){
+        Symbol = Symbol === "X" ? "O" : "X";
+        
+     }
