@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="tic.png" type="image/icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <div class="container2">
+      <p class="jj">It's</p>
+      <table class="kl">
+        <tr>
+          <td id="disp" class="disp"></td>
+        </tr>
+      </table>
+      <p class="jj">Turn</p>
+        <table class="main">
+            <tr>
+              <td id="1" onclick="boxclick(1)"></td>
+              <td id="2" onclick="boxclick(2)"></td>
+              <td id="3" onclick="boxclick(3)"></td>
+            </tr>
+            <tr>
+             <td id="4" onclick="boxclick(4)"></td>
+             <td id="5" onclick="boxclick(5)"></td>
+             <td id="6" onclick="boxclick(6)"></td>
+            </tr>
+            <tr>
+             <td id="7" onclick="boxclick(7)"></td>
+             <td id="8" onclick="boxclick(8)"></td>
+             <td id="9" onclick="boxclick(9)"></td>
+            </tr>
+        </table>
+    </div>
+    <p id="scores"></p>
+  <div class="container1">
+    <button id="new">New Game</button>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>

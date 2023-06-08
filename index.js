@@ -1,3 +1,4 @@
+
  //Set all wining positions as  sub arrays within an array
 function win(){
   for(let i=0;i<winner.length;i++){
@@ -42,3 +43,4 @@ function draw() {
       disp.innerHTML = message;
     }
   }
+    
