@@ -1,7 +1,7 @@
 let Symbol="X"
 let End = false
 //assignment of variables
-function boxClick(cell){
+function boxclick(cell){
     let disp=document.getElementById("disp")
      let thi=document.getElementById(cell)
       if (thi.innerHTML === "" && !End) {
