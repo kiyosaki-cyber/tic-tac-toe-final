@@ -139,8 +139,8 @@ td{
 
 }@media(min-width:320px){
     .main{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
    
             
         margin-right:20px
@@ -148,28 +148,28 @@ td{
 }
 @media(min-width:480px){
     .main{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
          margin-right:20px
    padding:auto;}
 }
 @media (min-width:768px) {
     .main{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         margin-right:20px
     padding: auto;}
     
     }
 @media(min-width:992px){
     .main{
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         margin-right:20px
      padding: auto;}
 }
 @media(min-width:1200px){
     .main{
-        width:600px;
-    height:600px;
+        width:500px;
+    height:500px;
     padding: auto;}
