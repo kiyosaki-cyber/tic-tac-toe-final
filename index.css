@@ -134,80 +134,42 @@ td{
     5% { transform: scale(1.8); }
     95% { transform: scale(1.2); } 
 }
-@media (max-width:1200px) {
-    .main{
-        width: 500px;
-        height: 500px;
-    margin-left: 0;}
-    .container1{
-        width: 75%;
-        margin-left: 42%;
-        transition:.2s;}
-        .jj{
-            margin-left: 46%;
-        }
-        .disp{
-            margin-left: 22%;
-        }
-    }
-@media(min-width:430px){
-    .main{
-        width: 500px;
-        height: 500px;
-    margin-left: 0;}
-}
-@media(min-width:800px){
-    .main{
-        width:350px;
-    height:350px;
-    margin-left: 38%;}
-    .container1{
-        width: 75%;
-        margin-left: 42%;
-        transition:.2s;}
-        .jj{
-            margin-left: 46%;
-        }
-        .disp{
-            margin-left: 22%;
-        }
-}
-@media (max-width:1200px) {
-    .main{
-        width: 500px;
-        height: 500px;
-    margin-left: 0;}
-    .container1{
-        width: 75%;
-        margin-left: 42%;
-        transition:.2s;}
-        .jj{
-            margin-left: 46%;
-        }
-        .disp{
-            margin-left: 22%;
-        }
-    }
-@media(min-width:430px){
-    .main{
-        width: 200px;
-        height: 200px;
-    margin-left: 0;}
-}
-@media(min-width:800px){
-    .main{
-        width:350px;
-    height:350px;
-    margin-left: 38%;}
-    .container1{
-        width: 75%;
-        margin-left: 42%;
-        transition:.2s;}
-        .jj{
-            margin-left: 46%;
-        }
-        .disp{
-            margin-left: 22%;
-        }
+@media only screen and (max-width: 600px) {
+  html {
+    /* Adjust background image for smaller screens */
+    background-size: contain;
+  }
+  
+  .main {
+    /* Adjust margin for smaller screens */
+    margin-left: 10%;
+  }
+  
+  .container1 {
+    /* Adjust margin and width for smaller screens */
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  /* Adjust other styles as needed for smaller screens */
 }
 
+/* Media queries for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .main {
+    /* Adjust margin for medium screens */
+    margin-left: 30%;
+  }
+  
+  /* Adjust other styles as needed for medium screens */
+}
+
+/* Media queries for larger screens */
+@media only screen and (min-width: 1025px) {
+  .main {
+    /* Adjust margin for larger screens */
+    margin-left: 42%;
+  }
+  
+  /* Adjust other styles as needed for larger screens */
+}
