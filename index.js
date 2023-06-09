@@ -67,8 +67,9 @@ function draw() {
     }
     if (filledCount === 9 && !End) {
       End = true;
-      var message = "DRAW!";
+       var message = "😔DRAW!";
       disp.innerHTML = message;
+      disp.classList.add("draw")
     }
   }
     
