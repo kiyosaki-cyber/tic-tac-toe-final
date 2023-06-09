@@ -5,7 +5,7 @@
 }
 html{
     background-image:radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
-    background-repeat: no-repeat;
+   
     background-size: cover;
     background-position: center;
 }
