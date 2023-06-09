@@ -4,8 +4,7 @@
     margin: 0;
 }
 html{
-    background-image: url(https://images.app.goo.gl/Ndeh1avyDcYdgaa49
- );
+    background-image:radial-gradient(gray,black);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
