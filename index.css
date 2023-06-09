@@ -155,6 +155,7 @@ td{
     .main{
         width: 500px;
         height: 500px;
+        margin-right:20px
     padding: auto;}
     
     }
@@ -162,6 +163,7 @@ td{
     .main{
         width: 600px;
         height: 600px;
+        margin-right:20px
      padding: auto;}
 }
 @media(min-width:1200px){
