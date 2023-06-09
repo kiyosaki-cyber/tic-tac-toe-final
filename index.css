@@ -40,7 +40,7 @@ table{
     height: 250px;
 }
 td{
-    background-image: radial-gradient(rgb(164, 155, 155),rgb(30, 35, 23));
+  
     border: solid 1px burlywood;
     text-align: center;
     width: 50px;
