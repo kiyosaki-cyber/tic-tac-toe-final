@@ -140,8 +140,8 @@ td{
 
 }@media(min-width:320px){
     .main{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
    
             
         margin-right:20px
@@ -152,8 +152,8 @@ td{
 }
 @media(min-width:480px){
     .main{
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 400px;
          margin-right:20px
               display: flex;
         align-content: center;
@@ -162,8 +162,8 @@ td{
 }
 @media (min-width:768px) {
     .main{
-        width: 300px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
         margin-right:20px
              display: flex;
         align-content: center;
@@ -173,8 +173,8 @@ td{
     }
 @media(min-width:992px){
     .main{
-        width: 400px;
-        height: 400px;
+        width: 600px;
+        height: 600px;
         margin-right:20px
              display: flex;
         align-content: center;
@@ -183,8 +183,8 @@ td{
 }
 @media(min-width:1200px){
     .main{
-        width:500px;
-    height:500px;
+        width:700px;
+    height:700px;
         display: flex;
         align-content: center;
         justify-content:center;
