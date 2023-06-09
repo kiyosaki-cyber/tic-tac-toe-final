@@ -4,7 +4,7 @@
     margin: 0;
 }
 html{
-    background-image:radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));;
+    background-image:radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,7 +172,7 @@ td{
             margin-left: 22%;
         }
 }
-@media (max-width:1200px) {
+@media (min-width:1200px) {
     .main{
         width: 500px;
         height: 500px;
@@ -190,8 +190,8 @@ td{
     }
 @media(min-width:430px){
     .main{
-        width: 500px;
-        height: 500px;
+        width: 200px;
+        height: 200px;
     margin-left: 0;}
 }
 @media(min-width:800px){
