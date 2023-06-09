@@ -88,3 +88,26 @@ td{
 .win{
     color: darkolivegreen;
 }
+.fred {
+    background-image: radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
+    transform: scale(1);
+   
+    animation: popOut 10s forwards;
+}
+
+@keyframes popOut {
+    0% { transform: scale(0); }
+    5% { transform: scale(1.8); }
+    95% { transform: scale(1.2); }
+}
+.draw {
+    background-image: radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
+   
+    animation: popOut 10s forwards;
+}
+
+@keyframes popOut {
+    0% { transform: scale(0); }
+    5% { transform: scale(1.8); }
+    95% { transform: scale(1.2); } 
+}
