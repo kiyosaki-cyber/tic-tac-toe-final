@@ -5,9 +5,8 @@
 }
 html{
     background-image:radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   width:100%;
+    height:100%;
 }
 button{
     background-color: greenyellow;
