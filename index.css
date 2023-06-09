@@ -4,7 +4,7 @@
     margin: 0;
 }
 html{
-    background-image:radial-gradient(gray,black);
+    background-image:url(tic.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
