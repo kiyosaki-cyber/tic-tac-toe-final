@@ -145,6 +145,9 @@ td{
    
             
         margin-right:20px
+             display: flex;
+        align-content: center;
+        justify-content:center;
    padding:auto;}
 }
 @media(min-width:480px){
@@ -152,6 +155,9 @@ td{
         width: 200px;
         height: 200px;
          margin-right:20px
+              display: flex;
+        align-content: center;
+        justify-content:center;
    padding:auto;}
 }
 @media (min-width:768px) {
@@ -159,6 +165,9 @@ td{
         width: 300px;
         height: 300px;
         margin-right:20px
+             display: flex;
+        align-content: center;
+        justify-content:center;
     padding: auto;}
     
     }
@@ -167,10 +176,16 @@ td{
         width: 400px;
         height: 400px;
         margin-right:20px
+             display: flex;
+        align-content: center;
+        justify-content:center;
      padding: auto;}
 }
 @media(min-width:1200px){
     .main{
         width:500px;
     height:500px;
+        display: flex;
+        align-content: center;
+        justify-content:center;
     padding: auto;}
