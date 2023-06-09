@@ -39,8 +39,9 @@ function win(){
      document.getElementById(winner[i][2]) .classList.add("win");
      //add a class tag within the html with the name win
       End = true;
-        var message = Symbol + " wins!";
-        disp.innerHTML = message;
+       var message = "😅" + Symbol + " wins!";
+            disp.innerHTML = message;
+            disp.classList.add("fred");
        
     }
   }
