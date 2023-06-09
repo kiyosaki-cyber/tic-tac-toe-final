@@ -4,20 +4,19 @@
     margin: 0;
 }
 html{
-   background-color: grey;
-   
-   
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 button{
     background-color: greenyellow;
     color: chocolate;
     font-size: 20px;
-    font-family: monospace;
+    font-family:"fogaza",cursive;
     font-weight: 900;
     max-width: 25%;
     border: none;
-    border-radius: 5px;
-    padding: 3px;
     margin-top: 1px;
     margin-bottom: 1px;
 }
@@ -37,26 +36,28 @@ button{
 table{
     border-collapse: separate;
     border-spacing: 0;
-    width: 300px;
-    height: 300px;
-    background-color:ghostwhite;
+    width: 250px;
+    height: 250px;
 }
 td{
-  
-    border: solid 3px black;
+   
+    border: solid 1px burlywood;
     text-align: center;
     width: 50px;
     height: 50px;
+    box-sizing: content-box;
 } 
-.x{  
+.X{  
     font-family: "fogaza",cursive;
-    color:black;
+    font-size: 900px;
+    color:greenyellow;
     font-size: 30px;
   }
   
-.o{
+.O{
     font-family: "fogaza",cursive;
-    color: darkgreen;
+    font-size: 900px;
+    color: chocolate;
     font-size: 30px;
     text-shadow: 2px,goldenrod;
   }
@@ -113,6 +114,44 @@ td{
     animation: none;
     visibility: visible;
 }
+@media (max-width:1200px) {
+    .main{
+        width: 500px;
+        height: 500px;
+    margin-left: 0;}
+    .container1{
+        width: 75%;
+        margin-left: 42%;
+        transition:.2s;}
+        .jj{
+            margin-left: 46%;
+        }
+        .disp{
+            margin-left: 22%;
+        }
+    }
+@media(min-width:430px){
+    .main{
+        width: 500px;
+        height: 500px;
+    margin-left: 0;}
+}
+@media(min-width:800px){
+    .main{
+        width:350px;
+    height:350px;
+    margin-left: 38%;}
+    .container1{
+        width: 75%;
+        margin-left: 42%;
+        transition:.2s;}
+        .jj{
+            margin-left: 46%;
+        }
+        .disp{
+            margin-left: 22%;
+        }
+}
 .fred {
     background-image: radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
     transform: scale(1);
@@ -136,56 +175,13 @@ td{
     5% { transform: scale(1.8); }
     95% { transform: scale(1.2); } 
 }
+    animation: popOut 10s forwards;
+}
+
+@keyframes popOut {
+    0% { transform: scale(0); }
+    5% { transform: scale(1.8); }
+    95% { transform: scale(1.2); } 
+}
 
 
-}@media(min-width:320px){
-    .main{
-        width: 200px;
-        height: 200px;
-   
-            
-        margin-right:20px
-             display: flex;
-        align-content: center;
-        justify-content:center;
-   padding:auto;}
-}
-@media(min-width:480px){
-    .main{
-        width: 400px;
-        height: 400px;
-         margin-right:20px
-              display: flex;
-        align-content: center;
-        justify-content:center;
-   padding:auto;}
-}
-@media (min-width:768px) {
-    .main{
-        width: 500px;
-        height: 500px;
-        margin-right:20px
-             display: flex;
-        align-content: center;
-        justify-content:center;
-    padding: auto;}
-    
-    }
-@media(min-width:992px){
-    .main{
-        width: 600px;
-        height: 600px;
-        margin-right:20px
-             display: flex;
-        align-content: center;
-        justify-content:center;
-     padding: auto;}
-}
-@media(min-width:1200px){
-    .main{
-        width:700px;
-    height:700px;
-        display: flex;
-        align-content: center;
-        justify-content:center;
-    padding: auto;}
