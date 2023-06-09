@@ -4,19 +4,20 @@
     margin: 0;
 }
 html{
-    background-image:radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
+   background-color: grey;
    
-    background-size: cover;
-    background-position: center;
+   
 }
 button{
     background-color: greenyellow;
     color: chocolate;
     font-size: 20px;
-    font-family:"fogaza",cursive;
+    font-family: monospace;
     font-weight: 900;
     max-width: 25%;
     border: none;
+    border-radius: 5px;
+    padding: 3px;
     margin-top: 1px;
     margin-bottom: 1px;
 }
