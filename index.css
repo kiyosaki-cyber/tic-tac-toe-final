@@ -114,44 +114,7 @@ td{
     animation: none;
     visibility: visible;
 }
-@media (max-width:1200px) {
-    .main{
-        width: 500px;
-        height: 500px;
-    margin-left: 0;}
-    .container1{
-        width: 75%;
-        margin-left: 42%;
-        transition:.2s;}
-        .jj{
-            margin-left: 46%;
-        }
-        .disp{
-            margin-left: 22%;
-        }
-    }
-@media(min-width:430px){
-    .main{
-        width: 200px;
-        height: 200px;
-    margin-left: 0;}
-}
-@media(min-width:800px){
-    .main{
-        width:350px;
-    height:350px;
-    margin-left: 38%;}
-    .container1{
-        width: 75%;
-        margin-left: 42%;
-        transition:.2s;}
-        .jj{
-            margin-left: 46%;
-        }
-        .disp{
-            margin-left: 22%;
-        }
-}
+
 .fred {
     background-image: radial-gradient(rgb(216, 205, 205),rgb(12, 12, 12));
     transform: scale(1);
